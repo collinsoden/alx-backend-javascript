@@ -1,15 +1,15 @@
 const taskFirst = () => {
-    var task = 'I prefer const when I can.';
-    return task;
-}
+  const task = 'I prefer const when I can.';
+  return task;
+};
 
-const getLast = () => {
-    return ' is okay';
-}
+const getLast = () => ' is okay';
 
-let taskNext = () => {
-    var combination = 'But sometimes let';
-    combination += getLast();
+const taskNext = () => {
+  let combination = 'But sometimes let';
+  combination += getLast();
 
-    return combination;
-}
+  return combination;
+};
+
+console.log(`${taskFirst()} ${taskNext()}`);

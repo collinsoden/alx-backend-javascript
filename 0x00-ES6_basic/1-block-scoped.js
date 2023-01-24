@@ -3,12 +3,13 @@ const taskBlock = (trueOrFalse) => {
   let task2 = true;
 
   if (trueOrFalse) {
-    task = true;
-    task2 = false;
+    () => {
+      task = true;
+      task2 = false;
+    };
   }
 
   return [task, task2];
 };
 
 export default taskBlock;
-console.log(taskBlock(false));

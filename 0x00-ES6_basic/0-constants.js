@@ -12,4 +12,4 @@ const taskNext = () => {
   return combination;
 };
 
-console.log(`${taskFirst()} ${taskNext()}`);
+// console.log(`${taskFirst()} ${taskNext()}`);

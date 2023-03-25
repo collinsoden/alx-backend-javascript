@@ -4,6 +4,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Installing](#installing)
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
 
@@ -19,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 -- Coming soon
 
 
-### Installing
+### Installing <a name = "installing"></a>
 Installation procedure will be provided soon
 
 
